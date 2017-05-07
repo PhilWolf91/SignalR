@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="css/app.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Chat Client</h1>
+        </header>
+        <div id="chatbox">
+
+        </div>
+        <footer class="footer container">
+            <form id="messageForm">
+                <input type="text" id="messageBox" />
+                <button type="button" id="messageButton">Send</button>
+            </form>
+            
+        </footer>
+    </div>
+    
+    <script src="Scripts/jquery-3.1.1.js"></script>
+    <script src="Scripts/jquery.signalR-2.2.2.js"></script>
+    <script src="http://localhost:58481/signalr/hubs"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
