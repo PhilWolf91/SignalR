@@ -1,0 +1,22 @@
+{
+  "name": "SignalRPhoneGap",
+  "authors": [
+    "Phillip Wolf <Phillip.wolf91@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "signalr": "^2.2.2",
+    "bootstrap": "^3.3.7"
+  }
+}
